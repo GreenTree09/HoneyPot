@@ -23,23 +23,27 @@ Starting and enabling the Apache service.
 ## How to Use the Scripts
 
 1. Clone the repository:
-   bash
+```bash
     git clone https://github.com/greentree09/HoneyPot.git
     cd HoneyPot
-   
+```
+
 2. Make the scripts executable:
-   bash
+```bash
     chmod +x scripts/honeypot-ssh.sh
     chmod +x scripts/honeypot-web.sh
-   
+```
+
 3. Run the SSH honeypot script:
-   bash
+```bash
     sudo ./scripts/honeypot-ssh.sh
-   
+```
+
 4. Run the web server honeypot script:
-   bash
+```bash
     sudo ./scripts/honeypot-web.sh
-   
+```
+
 ### Important Notes:
 These scripts require **root privileges** to install and configure the necessary services.
 The SSH honeypot listens on port 2323 and uses weak credentials (username: honeypotuser, password: password).
