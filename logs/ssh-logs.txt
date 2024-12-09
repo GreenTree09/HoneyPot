@@ -1,0 +1,14 @@
+Dec  9 13:45:21 honeypot sshd[1243]: Failed password for root from 192.168.1.2 port 2323 ssh2
+Dec  9 13:45:23 honeypot sshd[1245]: Failed password for root from 192.168.1.2 port 2323 ssh2
+Dec  9 13:45:25 honeypot sshd[1247]: Failed password for root from 192.168.1.2 port 2323 ssh2
+Dec  9 13:45:27 honeypot sshd[1249]: Failed password for root from 192.168.1.2 port 2323 ssh2
+Dec  9 13:45:29 honeypot sshd[1251]: Failed password for root from 192.168.1.2 port 2323 ssh2
+Dec  9 13:45:31 honeypot sshd[1253]: Failed password for root from 192.168.1.2 port 2323 ssh2
+Dec  9 13:45:35 honeypot sshd[1255]: Failed password for honeypotuser from 192.168.1.2 port 2323 ssh2
+Dec  9 13:45:37 honeypot sshd[1257]: Failed password for honeypotuser from 192.168.1.2 port 2323 ssh2
+Dec  9 13:45:40 honeypot sshd[1259]: Accepted password for honeypotuser from 192.168.1.2 port 2323 ssh2
+Dec  9 13:45:40 honeypot sshd[1261]: pam_unix(sshd:session): session opened for user honeypotuser by (uid=0)
+Dec  9 13:45:45 honeypot sshd[1264]: Received disconnect from 192.168.1.2 port 2323:11: disconnected by user
+Dec  9 13:45:45 honeypot sshd[1266]: Disconnected from user honeypotuser 192.168.1.2 port 2323
+Dec  9 13:46:10 honeypot sshd[1270]: Failed password for invalid user admin from 192.168.1.2 port 2323 ssh2
+Dec  9 13:46:12 honeypot sshd[1272]: Failed password for invalid user admin from 192.168.1.2 port 2323 ssh2
